@@ -170,8 +170,8 @@ $ git clone https://github.com/JenniferFariasRodrigues/linguagem_C.git
 # Access using IDE ou through the code
 On the IDE Enviromental choose the open project.
 
-# Choose folder in IDE and run the project
-Click on  "LINGUAGEM_C" folder and choose "Main.c" class.
+# 1 Challenge: Choose FormaGeometrica folder in IDE and run the project
+Click on  "FormaGeometrica" folder and choose "Main.c" class.
 # Put the line on the terminal
 $ gcc -o main main.c Retangulo.c Triangulo.c -lm
 
