@@ -110,7 +110,7 @@ e exibição de retângulos e outras formas geométricas.
 
 
 
-<!-- ### --------------------- DESAFIO 02 ----------------------------------------|
+### --------------------- DESAFIO 02 ----------------------------------------|
 ### Desafio de Implementação em C: Interpretação de Pacotes de Dados 		   |
 ### Serial e Padrão Observer			   									   |
 ### ---------------------------------------------------------------------------|
@@ -157,7 +157,7 @@ pacotes de dados que lhes interessam.
 #Observações:
 - Você pode simular os dados recebidos pela porta serial para testar sua implementação.
 - Certifique-se de incluir comentários adequados em seu código para explicar a 
-lógica e o propósito de cada função e estrutura. -->
+lógica e o propósito de cada função e estrutura.
 
 
 ---
@@ -170,10 +170,20 @@ $ git clone https://github.com/JenniferFariasRodrigues/linguagem_C.git
 # Access using IDE ou through the code
 On the IDE Enviromental choose the open project.
 
-# 1 Challenge: Choose FormaGeometrica folder in IDE and run the project
+# 1 Challenge: 
+# Choose FormaGeometrica folder in IDE and run the project
 Click on  "FormaGeometrica" folder and choose "Main.c" class.
 # Put the line on the terminal
 $ gcc -o main main.c Retangulo.c Triangulo.c -lm
+
+# Run code
+$ ./main
+
+# 2 Challenge: 
+# Choose InterpretacaoPacoteDeDados folder in IDE and run the project
+Click on  "InterpretacaoPacoteDeDados" folder and choose "mainInterpretacaoPacoteDeDados.c" class.
+# Put the line on the terminal
+$ gcc -o main mainInterpretacaoDePacoteDeDados.c crc32.c
 
 # Run code
 $ ./main
@@ -212,4 +222,20 @@ Perímetro = 12.00
 
 ```
 
+---
 
+The expected Desafio-02 project output for:
+-Correct result :
+```bash
+Digite o nome: openai
+Digite a Serial: 6344369
+Bravo!
+
+```
+
+-wrong result:
+```bash
+Digite o nome: openai
+Digite a Serial: 6344368
+Tente outra vez...
+```
