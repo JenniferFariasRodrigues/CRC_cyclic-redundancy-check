@@ -1,5 +1,5 @@
 <p align="center">
- <img src="https://qph.cf2.quoracdn.net/main-qimg-62be9fb6e1d7166e9cbeeed913096752" height="250" width="250">  </p>
+ <img src="https://giovanidacruz.com.br/wp-content/uploads/2022/11/C-programming-1024x530-1.jpg" height="250" width="250">  </p>
  <h1 align="center">C language code</h1>
 <p align="center">
 </p>
