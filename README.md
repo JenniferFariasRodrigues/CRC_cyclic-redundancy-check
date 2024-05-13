@@ -3,7 +3,7 @@
  <h1 align="center">C language code</h1>
 <p align="center">
 </p>
-Backend bank aggregation application using C language.
+Backend  aggregation application using C language.
 
 
 ### Description 
