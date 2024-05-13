@@ -225,6 +225,7 @@ Perímetro = 12.00
 ---
 
 The expected Desafio-02 project output for:
+---
 -Correct result :
 ```bash
 Digite o nome: openai
