@@ -1,6 +1,6 @@
 <p align="center">
  <img src="https://qph.cf2.quoracdn.net/main-qimg-62be9fb6e1d7166e9cbeeed913096752" height="250" width="250">  </p>
- <h1 align="center">Global Sonic Challenge</h1>
+ <h1 align="center">C language code</h1>
 <p align="center">
 </p>
 Backend bank aggregation application using C language.
