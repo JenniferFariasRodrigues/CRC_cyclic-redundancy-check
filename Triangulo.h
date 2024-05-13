@@ -16,4 +16,4 @@ float calcular_area_triangulo(void *self);
 float calcular_perimetro_triangulo(void *self);
 void imprimir_triangulo(void *self);
 
-#endif /* TRIANGULO_H */
+#endif 

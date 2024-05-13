@@ -34,8 +34,8 @@ void imprimir_retangulo(void *self)
 {
     Retangulo *retangulo = (Retangulo *)self;
     printf("Retângulo:\n");
-    printf("Largura: %.2f\n", retangulo->largura);
-    printf("Altura: %.2f\n", retangulo->altura);
-    printf("Área: %.2f\n", retangulo->base.calcular_area(self));
-    printf("Perímetro: %.2f\n", retangulo->base.calcular_perimetro(self));
+    printf("Largura = %.2f\n", retangulo->largura);
+    printf("Altura = %.2f\n", retangulo->altura);
+    printf("Área = %.2f\n", retangulo->base.calcular_area(self));
+    printf("Perímetro = %.2f\n", retangulo->base.calcular_perimetro(self));
 }

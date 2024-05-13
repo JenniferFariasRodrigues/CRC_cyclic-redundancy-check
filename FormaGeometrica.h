@@ -10,4 +10,4 @@ typedef struct
 
 void inicializar_forma_geometrica(FormaGeometrica *forma, float (*calcular_area)(void *), float (*calcular_perimetro)(void *), void (*imprimir)(void *));
 
-#endif /* FORMA_GEOMETRICA_H */
+#endif 

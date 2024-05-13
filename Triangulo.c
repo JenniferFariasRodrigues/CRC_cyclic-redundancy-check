@@ -37,9 +37,9 @@ void imprimir_triangulo(void *self)
 {
     Triangulo *triangulo = (Triangulo *)self;
     printf("Triângulo:\n");
-    printf("Lado 1: %.2f\n", triangulo->lado1);
-    printf("Lado 2: %.2f\n", triangulo->lado2);
-    printf("Lado 3: %.2f\n", triangulo->lado3);
-    printf("Área: %.2f\n", triangulo->base.calcular_area(self));
-    printf("Perímetro: %.2f\n", triangulo->base.calcular_perimetro(self));
+    printf("Lado 1 = %.2f\n", triangulo->lado1);
+    printf("Lado 2 = %.2f\n", triangulo->lado2);
+    printf("Lado 3 = %.2f\n", triangulo->lado3);
+    printf("Área = %.2f\n", triangulo->base.calcular_area(self));
+    printf("Perímetro = %.2f\n", triangulo->base.calcular_perimetro(self));
 }

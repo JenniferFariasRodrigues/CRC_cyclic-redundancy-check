@@ -1,6 +1,6 @@
 <p align="center">
- <img src="https://qph.cf2.quoracdn.net/main-qimg-62be9fb6e1d7166e9cbeeed913096752" height="250" width="250">  </p>
- <h1 align="center">Global Sonic Challenge</h1>
+ <img src="https://giovanidacruz.com.br/wp-content/uploads/2022/11/C-programming-1024x530-1.jpg" height="250" width="450">  </p>
+ <h1 align="center">C language code</h1>
 <p align="center">
 </p>
 Backend bank aggregation application using C language.
@@ -110,7 +110,7 @@ e exibição de retângulos e outras formas geométricas.
 
 
 
-### --------------------- DESAFIO 02 ----------------------------------------|
+<!-- ### --------------------- DESAFIO 02 ----------------------------------------|
 ### Desafio de Implementação em C: Interpretação de Pacotes de Dados 		   |
 ### Serial e Padrão Observer			   									   |
 ### ---------------------------------------------------------------------------|
@@ -157,7 +157,7 @@ pacotes de dados que lhes interessam.
 #Observações:
 - Você pode simular os dados recebidos pela porta serial para testar sua implementação.
 - Certifique-se de incluir comentários adequados em seu código para explicar a 
-lógica e o propósito de cada função e estrutura.
+lógica e o propósito de cada função e estrutura. -->
 
 
 ---
@@ -171,8 +171,12 @@ $ git clone https://github.com/JenniferFariasRodrigues/linguagem_C.git
 On the IDE Enviromental choose the open project.
 
 # Choose folder in IDE and run the project
-Click on  "main_application" folder and choose "Main.c" class.
-Click on "Run" in the Window.
+Click on  "LINGUAGEM_C" folder and choose "Main.c" class.
+# Put the line on the terminal
+$ gcc -o main main.c Retangulo.c Triangulo.c -lm
+
+# Run code
+$ ./main
 
 
 ```
@@ -182,29 +186,29 @@ Click on "Run" in the Window.
 The expected project output is:
 ```bash
 
--------------------------
+----------------------
 
 Dados do Retângulo
 
--------------------------
+----------------------
 Retângulo:
-Largura: 5.00
-Altura: 3.00
-Área: 15.00
-Perímetro: 16.00
+Largura = 5.00
+Altura = 3.00
+Área = 15.00
+Perímetro = 16.00
 
  
--------------------------
+----------------------
 
 Dados do Triângulo
 
--------------------------
+----------------------
 Triângulo:
-Lado 1: 3.00
-Lado 2: 4.00
-Lado 3: 5.00
-Área: 6.00
-Perímetro: 12.00
+Lado 1 = 3.00
+Lado 2 = 4.00
+Lado 3 = 5.00
+Área = 6.00
+Perímetro = 12.00
 
 ```
 
