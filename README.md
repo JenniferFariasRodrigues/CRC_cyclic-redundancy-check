@@ -95,8 +95,8 @@ e exibição de retângulos e outras formas geométricas.
                                                             extends
                                                               ||
                                     |-----------------------------------------------|
-                                  |                                                 |
-                               Retangulo         			    	Triangulo
+                                    |                                               |
+                                 Retangulo         			    	Triangulo
                             ----------------------------------  	--------------------------------------
                           |+ largura: float          			|	|+ lado1: float 	|
                           |+ altura: float           			|	|+ lado2: float 	 |
