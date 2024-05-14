@@ -90,13 +90,13 @@ e exibição de retângulos e outras formas geométricas.
 					| + imprimir(): void                         |
 					| + criar_forma_geometrica(): void*          |
 					 --------------------------------------------
-										 /\
-										 ||
-									  extends
-										 ||
-					|-----------------------------------------------|
-					|                             					|
-				Retangulo         				Triangulo
+ /\
+||
+extends
+||
+|-----------------------------------------------|
+|                     		|
+Retangulo         				Triangulo
   ----------------------------------  	--------------------------------------
 |+ largura: float          			|	|+ lado1: float 					   |
 |+ altura: float           			|	|+ lado2: float 					   |
