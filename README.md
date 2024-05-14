@@ -195,7 +195,7 @@ $ ./main
 ### Output
 ###
 The expected Desafio-01 project output is:
---- 
+---
 ```bash
 
 ----------------------
@@ -225,7 +225,7 @@ Perímetro = 12.00
 ```
 
 The expected Desafio-02 project output is:
---- 
+---
 -Correct result :
 ```bash
 Digite o Nome: jennifer
