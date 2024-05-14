@@ -81,7 +81,7 @@ uso de memória e tempo de execução.
 uma interação intuitiva com o usuário, facilitando a criação, manipulação 
 e exibição de retângulos e outras formas geométricas.
 
-
+```bash
 					 ____________________________________________
 					|                FormaGeometrica             |
 					|--------------------------------------------|
@@ -108,7 +108,7 @@ e exibição de retângulos e outras formas geométricas.
 |+ imprimir(): void                 |	|+ imprimir(): void                    |
  ------------------------------------	----------------------------------------
 
-
+```
 
 ### --------------------- DESAFIO 02 ----------------------------------------|
 ### Desafio de Implementação em C: Interpretação de Pacotes de Dados 		   |
