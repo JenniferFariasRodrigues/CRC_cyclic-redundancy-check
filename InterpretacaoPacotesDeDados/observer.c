@@ -20,7 +20,7 @@ void addObserver(Observable *observable, uint8_t tipoInteresse, ObserverCallback
 // Função para notificar os observadores quando um novo pacote de dados é recebido
 void notifyObservers(Observable *observable, PacoteDados *pacote)
 {
-    printf("\n---Aviso---\nNotificando observadores para o tipo de pacote: %d\n", pacote->tipo);
+    printf("\n \n---Aviso---\nNotificando observadores para o tipo de pacote: %d\n", pacote->tipo);
     for (int i = 0; i < observable->numObservers; i++)
     {
         if (observable->observers[i].tipoInteresse == pacote->tipo)

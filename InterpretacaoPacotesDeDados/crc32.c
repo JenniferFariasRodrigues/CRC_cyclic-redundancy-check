@@ -1,3 +1,9 @@
+/** 
+ * Source: https://github.com/mentebinaria/engrev/blob/master/crc32/crc32.c
+ * https://www.youtube.com/watch?v=X0kG4OZOihc
+ * 
+*/
+
 #include "crc32.h"
 
 /* crc_tab[] -- this crcTable is being build by chksum_crc32GenTab().

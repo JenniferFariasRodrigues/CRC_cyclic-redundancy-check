@@ -230,18 +230,20 @@ The expected Desafio-02 project output is:
 ```bash
 Digite o Nome: jennifer
 Digite a Serial: 849
-Tipo de pacote: 2
-CRC calculado: 458E27B7
+CRC calculado - nome: 458E27B7
+CRC calculado - função: E5CD778D
 Serial correto: 849
 
-Resultado  Interpretação de Pacotes de Dados :
+Resultado:
 Dados corretos!
+Erro: Cabeçalho do pacote inválido!
 
+ 
 ---Aviso---
-Notificando observadores para o tipo de pacote: 2
+Notificando observadores para o tipo de pacote: 1
 
 Pacote de dados recebido:
-Tipo: 2
+Tipo: 1
 Comprimento: 8
 Dados: jennifer
 CRC: 0x27B7
@@ -251,20 +253,11 @@ CRC: 0x27B7
 -wrong result:
 ```bash
 Digite o Nome: jennifer
-Digite a Serial: 3
-Tipo de pacote: 1
-CRC calculado: 458E27B7
+Digite a Serial: 85
+CRC calculado - nome: 458E27B7
+CRC calculado - função: E5CD778D
 Serial correto: 849
 
-Resultado  Interpretação de Pacotes de Dados :
+Resultado:
 Tente outra vez...
-
----Aviso---
-Notificando observadores para o tipo de pacote: 1
-
-Pacote de dados recebido:
-Tipo: 1
-Comprimento: 8
-Dados: jennifer
-CRC: 0x27B7
 ```
