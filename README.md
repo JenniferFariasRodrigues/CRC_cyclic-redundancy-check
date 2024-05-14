@@ -181,9 +181,9 @@ $ ./main
 
 # 2 Challenge: 
 # Choose InterpretacaoPacoteDeDados folder in IDE and run the project
-Click on  "InterpretacaoPacoteDeDados" folder and choose "mainInterpretacaoPacoteDeDados.c" class.
+Click on  "InterpretacaoPacoteDeDados" folder and choose "main.c" class.
 # Put the line on the terminal
-$ gcc -o main mainInterpretacaoDePacoteDeDados.c crc32.c
+$ gcc -o main main.c observer.c crc32.c
 
 # Run code
 $ ./main
@@ -222,21 +222,47 @@ Perímetro = 12.00
 
 ```
 
----
-
-The expected Desafio-02 project output for:
----
+The expected Desafio-02 project output is:
+--- 
 -Correct result :
 ```bash
-Digite o nome: openai
-Digite a Serial: 6344369
-Bravo!
+Digite o Nome: jennifer
+Digite a Serial: 849
+Tipo de pacote: 2
+CRC calculado: 458E27B7
+Serial correto: 849
+
+Resultado  Interpretação de Pacotes de Dados :
+Dados corretos!
+
+---Aviso---
+Notificando observadores para o tipo de pacote: 2
+
+Pacote de dados recebido:
+Tipo: 2
+Comprimento: 8
+Dados: jennifer
+CRC: 0x27B7
 
 ```
 
 -wrong result:
 ```bash
-Digite o nome: openai
-Digite a Serial: 6344368
+Digite o Nome: jennifer
+Digite a Serial: 3
+Tipo de pacote: 1
+CRC calculado: 458E27B7
+Serial correto: 849
+
+Resultado  Interpretação de Pacotes de Dados :
 Tente outra vez...
+
+---Aviso---
+Notificando observadores para o tipo de pacote: 1
+
+Pacote de dados recebido:
+Tipo: 1
+Comprimento: 8
+Dados: jennifer
+CRC: 0x27B7
 ```

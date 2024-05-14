@@ -1,4 +1,11 @@
 {
     "cmake.sourceDirectory": "/home/jennifer/Documentos/desafio_linguagem_C/linguagem_C/output",
-    "C_Cpp.errorSquiggles": "disabled"
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "array": "c",
+        "string": "c",
+        "string_view": "c",
+        "span": "c",
+        "observer.h": "c"
+    }
 }
