@@ -92,7 +92,7 @@ e exibição de retângulos e outras formas geométricas.
 					 --------------------------------------------
                                                           /\
                                                           ||
-                                                          extends
+                                                        extends
                                                           ||
                                     |-----------------------------------------------|
                                       |                     		|
