@@ -1,5 +1,5 @@
 #include "observer.h"
-#include <stdio.h> // Adicione esta linha
+#include <stdio.h> 
 
 // Função para adicionar um observador ao objeto observável
 void addObserver(Observable *observable, uint8_t tipoInteresse, ObserverCallback callback)
