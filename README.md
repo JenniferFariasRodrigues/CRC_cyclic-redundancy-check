@@ -193,8 +193,9 @@ $ ./main
 
 ---
 ### Output
-##
+###
 The expected Desafio-01 project output is:
+--- 
 ```bash
 
 ----------------------
