@@ -90,20 +90,20 @@ e exibição de retângulos e outras formas geométricas.
 					| + imprimir(): void                         |
 					| + criar_forma_geometrica(): void*          |
 					 --------------------------------------------
-                                      ____                /\
+                                                          /\
                                                           ||
                                                           extends
                                                           ||
-                                    _|-----------------------------------------------|
+                                    |-----------------------------------------------|
                                       |                     		|
                                 Retangulo         				Triangulo
                             ----------------------------------  	--------------------------------------
-                          |+ largura: float          			|	|+ lado1: float 		|
-                          |+ altura: float           			|	|+ lado2: float 	  |
+                          |+ largura: float          			|	|+ lado1: float 	|
+                          |+ altura: float           			|	|+ lado2: float 	 |
                           |                          			|	|+ lado3: float    |
                           |-----------------------------------|	|--------------------------------------|
-                          |+ criar_retangulo(): void*			|	|+ criar_triangulo(): void* 	 |
-                          |+ calc_area_retangulo(): float 	|	|+ calc_area_triangulo(): float 	 |
+                          |+ criar_retangulo(): void*			|	|+ criar_triangulo(): void* 	             |
+                          |+ calc_area_retangulo(): float 	|	|+ calc_area_triangulo(): float 	       |
                           |+ calc_perimetro_retangulo(): float|	|+ calc_perimetro_triangulo(): float   |
                           |+ imprimir(): void                 |	|+ imprimir(): void                    |
                           ---------------_-------____--------------	----------------------------------------
