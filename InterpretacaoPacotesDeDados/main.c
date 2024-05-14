@@ -47,7 +47,7 @@ int main(void)
 
     // Criar um pacote de dados com o nome, serial e CRC
     PacoteDados pacote;
-    pacote.tipo = PACKET_TYPE_DATA; // Definição do tipo de pacote conforme necessário
+    pacote.tipo = PACKET_TYPE_DATA; // Definição do tipo de pacote = 0x01
     pacote.comprimento = strlen(nome);
     strcpy(pacote.dados, nome);
     pacote.crc = crc;
@@ -65,9 +65,7 @@ int main(void)
             // Quando um novo pacote de dados for recebido e validado, chama a função notifyObservers
             notifyObservers(&observable, &pacote);
         }
-    }
-    else
-    {
+    }else{
         printf("\nResultado:\nTente outra vez...\n");
     }
 
@@ -82,9 +80,7 @@ bool validarPacote(PacoteDados *pacote)
     {
         printf("Erro: Cabeçalho do pacote inválido!\n");
         // return false;
-    }
-    else
-    {
+    }else{
         printf("Cabeçalho do pacote válido!\n");
     }
     // Verificar se o comprimento dos dados é válido (não vazio)
